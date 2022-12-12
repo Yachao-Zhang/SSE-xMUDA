@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+xmuda.egg-info/PKG-INFO
+xmuda.egg-info/SOURCES.txt
+xmuda.egg-info/dependency_links.txt
+xmuda.egg-info/requires.txt
+xmuda.egg-info/top_level.txt
