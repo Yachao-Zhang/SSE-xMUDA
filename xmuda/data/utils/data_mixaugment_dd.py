@@ -393,7 +393,7 @@ def data_mixaugment(data_batch_src, data_batch_trg, cut_redio = 1/2, paced=None)
     data_batch_src['cut_W'] = cut_W
     data_batch_src['rol'] = rnd
     data_batch_src['num_src'] = []
-    a2d2_kitti = True
+    a2d2_kitti = False
     if a2d2_kitti:
         if rnd == 0:
             data_batch_src = data_mixaugment_src_left_ak(data_batch_src, data_batch_trg, cut_W)
